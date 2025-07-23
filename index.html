@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Faugei flowers shop</title>
   </head>
-  <body class="inter container" style="background-color: #f5f8ff">
-    <head>
+  <body class="inter containe" style="background-color: #f5f8ff">
+    <header class="container">
       <!-- Navbar -->
       <nav class="flex navabr">
         <img class="nav-logo" src="assets/logo.png" alt="" />
@@ -64,7 +64,7 @@
           <img src="assets/hero-flower.png" alt="" />
         </div>
       </section>
-    </head>
+    </header>
     <main>
       <!-- Our Plants Sections -->
       <section>
@@ -76,7 +76,7 @@
             variety of fresh.
           </p>
         </div>
-        <div class="card-container">
+        <div class="card-container container">
           <!-- Card-1 -->
           <div class="card">
             <img src="assets/sample-flower-image.png" alt="Card_image" />
@@ -151,10 +151,11 @@
           </div>
         </div>
       </section>
-
       <!-- Flower & Plants Lover -->
-      <section class="flex plants-lover  ">
-        <div class="left-side">
+      <section>
+        <div class="container">
+        <div class="flex plants-lover">
+         <div class="left-side">
           <img class="plants-img" src="assets/flower-store.png" alt="" />
           <img class="plants-badge" src="assets/trusted-badge.png" alt="" />
         </div>
@@ -187,8 +188,9 @@
             </li>
           </ol>
         </div>
+       </div>
+      </div>
       </section>
-
       <!--  Latest Deals -->
       <section>
         <div class="section-header">
@@ -198,21 +200,26 @@
             discounted prices. Shop now and brighten someone’s day for less.
           </p>
         </div>
-        <div class="latest-deals">
+        <!-- <div class="latest-deals">
           <div class="first"></div>
           <div class="second"></div>
           <div class="third"></div>
-        </div>
+        </div> -->
         </div>
       </section>
-
       <!-- Join the colorful Bunch -->
-      <section></section>
+      <section class="join-bunch">
+        <h2 class="join-bunch-title notoSerif">Join the colorful Bunch</h2>
+        <div class="join-body container flex">
+          <input type="email" name="email" placeholder="Write email">
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+      </section>
     </main>
     <footer class="flex footer container">
       <div>
         <img class="nav-logo" src="assets/logo.png" alt="Brand logo">
-        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem iste sapiente earum molestias aspernatur assumenda. Quae, sint!</p>
+        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem iste sapiente.</p>
       </div>
       <div>
         <li class="footer-link">
@@ -248,11 +255,11 @@
           <a href="#">Help Center</a>
         </li>
       </div>
-      <div class="logo-box fle">
-        <img class="footer_logo" src="/assets/icon-linkedin.png" alt="">
-        <img class="footer_logo" src="/assets/icon-twitter.png" alt="">
-        <img class="footer_logo" src="/assets/icon-facebook.png" alt="">
-        <img class="footer_logo" src="/assets/icon-youtube.png" alt="">
+      <div class="logo-box">
+        <img class="footer_logo" src="assets/icon-linkedin.png" alt="">
+        <img class="footer_logo" src="assets/icon-twitter.png" alt="">
+        <img class="footer_logo" src="assets/icon-facebook.png" alt="">
+        <img class="footer_logo" src="assets/icon-youtube.png" alt="">
       </div>
     </footer>
   </body>
