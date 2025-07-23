@@ -153,7 +153,6 @@ span {
   margin-top: 50px;
   display: grid;
   gap: 35px 20px;
-
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -167,8 +166,9 @@ span {
 }
 
 .card-title {
-  color: var(--black);
   font-size: 22px;
+  font-weight: 500;
+  color: var(--black);
 }
 
 .price {
@@ -176,4 +176,89 @@ span {
   font-size: 22px;
   font-weight: 700;
   line-height: 150%;
+}
+
+.plants-img {
+  width: 540px;
+}
+
+.left-side {
+  position: relative;
+}
+
+.plants-badge {
+  top: -110px;
+  right: -80px;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+.plants-lover {
+  gap: 50px;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plants-title {
+  color: var(--black);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.plants-item,
+li {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+/* Latest deals design */
+.latest-deals {
+  display: grid;
+  margin-top: 120px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.first {
+  height: 20px;
+  grid-column: span 1;
+  background-color: yellow;
+}
+
+.second {
+  height: 20px;
+  grid-column: span 1;
+  background-color: red;
+}
+
+.third {
+  height: 20px;
+  /* grid-column: 1 / span 2; */
+  background-color: black;
+}
+
+/* Footer design */
+footer {
+  padding: 50px 0;
+}
+
+.footer {
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.footer_logo {
+  width: 30px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.footer-link {
+  margin: 0;
+  padding-bottom: 30px;
 }
