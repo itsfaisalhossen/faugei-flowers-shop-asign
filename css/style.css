@@ -19,12 +19,7 @@ img {
 
 p {
   color: var(--gray);
-  text-align: center;
   font-size: 22px;
-}
-
-section {
-  margin-top: 120px;
 }
 
 a {
@@ -33,6 +28,27 @@ a {
 
 li {
   list-style: none;
+}
+
+section {
+  margin-top: 140px;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 50px;
+  transition: all 0.3s;
+  border: none;
+  color: var(--white);
+  background-color: var(--orenge);
+}
+
+button:hover {
+  transition: all 0.3s;
+  background-color: #d44e0b;
 }
 
 .notoSerif {
@@ -85,4 +101,79 @@ a {
 .nav-logo {
   width: 135px;
   height: auto;
+}
+
+/* Banner styles */
+
+.banner {
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 60px;
+}
+
+.banner-left {
+  bottom: 0;
+  max-width: 570px;
+}
+
+.banner-right {
+  max-width: 570px;
+}
+
+.banner-title {
+  color: var(--black);
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-title,
+span {
+  color: var(--orenge);
+}
+
+.banner-description {
+  text-align: left;
+}
+
+.section-title {
+  font-size: 50px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+/* Our plants styles */
+.card-container {
+  margin-top: 50px;
+  display: grid;
+  gap: 35px 20px;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  text-align: center;
+  width: 270px;
+}
+
+.card-body {
+  margin: 30px 0;
+}
+
+.card-title {
+  color: var(--black);
+  font-size: 22px;
+}
+
+.price {
+  color: var(--black);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
 }
