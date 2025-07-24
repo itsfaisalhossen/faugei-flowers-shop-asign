@@ -215,27 +215,27 @@ li {
 
 /* Latest deals design */
 .latest-deals {
-  display: grid;
   margin-top: 120px;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  align-items: center;
+  height: 440px;
+  justify-content: space-between;
 }
 
-.first {
-  height: 20px;
-  grid-column: span 1;
-  background-color: yellow;
+.left-latest-side {
+  width: 35%;
 }
 
-.second {
-  height: 20px;
-  grid-column: span 1;
-  background-color: red;
+.right-latest-side {
+  width: 65%;
 }
 
-.third {
-  height: 20px;
-  /* grid-column: 1 / span 2; */
-  background-color: black;
+.first-image {
+  margin-bottom: 20px;
+}
+
+.right-latest-side img {
+  height: 448.125px;
 }
 
 /* Join bunch */
